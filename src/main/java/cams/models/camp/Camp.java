@@ -213,6 +213,10 @@ public class Camp implements Comparable<Camp>, RepliableObserver {
         return committee.size() >= committeeSlots;
     }
 
+    public boolean isEmpty() {
+        return attendees.size() + committee.size() == 0;
+    }
+
     public void delete() {
         for (Student attendee : attendees)
             attendee.update(CampEvent.DELETE, this);

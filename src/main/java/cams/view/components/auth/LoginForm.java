@@ -1,9 +1,7 @@
 package cams.view.components.auth;
 
 import cams.view.CommonElements;
-import cams.view.DisplayController;
 import cams.view.base.Form;
-import cams.view.base.ItemAction;
 import cams.view.base.TextBox;
 
 import java.util.Scanner;

@@ -3,9 +3,12 @@ package cams.models;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
+import java.util.TreeSet;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
@@ -48,6 +51,10 @@ public class CamsData implements CampObserver {
 
     public void addUser(User user) {
         userTable.put(user.getId().toUpperCase(), user);
+    }
+
+    public Collection<Camp> getAllCamps() {
+        return campTable.values();
     }
 
     public Camp getCamp(String name) {
