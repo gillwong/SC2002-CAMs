@@ -1,6 +1,6 @@
-package cams.model.user;
+package cams.models.user;
 
-import cams.model.camp.CampObserver;
+import cams.models.camp.CampObserver;
 
 public abstract class User implements Comparable<User>, CampObserver {
     private final String id;

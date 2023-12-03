@@ -1,7 +1,7 @@
-package cams.model.repliable;
+package cams.models.repliable;
 
-import cams.model.camp.Camp;
-import cams.model.user.Student;
+import cams.models.camp.Camp;
+import cams.models.user.Student;
 
 public class Suggestion extends Repliable {
     private boolean approved;

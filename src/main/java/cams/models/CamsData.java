@@ -1,4 +1,4 @@
-package cams.model;
+package cams.models;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -14,12 +14,12 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import cams.model.camp.Camp;
-import cams.model.camp.CampEvent;
-import cams.model.camp.CampObserver;
-import cams.model.user.Staff;
-import cams.model.user.Student;
-import cams.model.user.User;
+import cams.models.camp.Camp;
+import cams.models.camp.CampEvent;
+import cams.models.camp.CampObserver;
+import cams.models.user.Staff;
+import cams.models.user.Student;
+import cams.models.user.User;
 
 public class CamsData implements CampObserver {
     private static CamsData camsData;

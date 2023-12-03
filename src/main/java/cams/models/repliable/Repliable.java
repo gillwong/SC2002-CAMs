@@ -1,11 +1,11 @@
-package cams.model.repliable;
+package cams.models.repliable;
 
 import java.util.Objects;
 
-import cams.model.camp.Camp;
-import cams.model.camp.CampEvent;
-import cams.model.camp.CampObserver;
-import cams.model.user.Student;
+import cams.models.camp.Camp;
+import cams.models.camp.CampEvent;
+import cams.models.camp.CampObserver;
+import cams.models.user.Student;
 
 public abstract class Repliable implements Comparable<Repliable>, CampObserver {
     private String content;

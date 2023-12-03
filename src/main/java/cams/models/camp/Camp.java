@@ -1,4 +1,4 @@
-package cams.model.camp;
+package cams.models.camp;
 
 import java.time.LocalDate;
 import java.util.HashMap;
@@ -7,12 +7,12 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Set;
 
-import cams.model.CamsData;
-import cams.model.repliable.Enquiry;
-import cams.model.repliable.RepliableEvent;
-import cams.model.repliable.RepliableObserver;
-import cams.model.user.Staff;
-import cams.model.user.Student;
+import cams.models.CamsData;
+import cams.models.repliable.Enquiry;
+import cams.models.repliable.RepliableEvent;
+import cams.models.repliable.RepliableObserver;
+import cams.models.user.Staff;
+import cams.models.user.Student;
 
 public class Camp implements Comparable<Camp>, RepliableObserver {
     private final Set<Student> attendees;

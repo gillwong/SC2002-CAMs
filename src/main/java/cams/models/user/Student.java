@@ -1,10 +1,10 @@
-package cams.model.user;
+package cams.models.user;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import cams.model.camp.Camp;
-import cams.model.camp.CampEvent;
+import cams.models.camp.Camp;
+import cams.models.camp.CampEvent;
 
 public class Student extends User {
     private final Set<Camp> campsRegistered;
