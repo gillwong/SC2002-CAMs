@@ -1,10 +1,11 @@
-package cams.controllers;
+package cams.controllers.camp;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.List;
 
+import cams.controllers.Manager;
 import cams.models.CamsData;
 import cams.models.camp.Camp;
 import cams.models.user.Staff;

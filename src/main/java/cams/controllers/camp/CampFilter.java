@@ -1,4 +1,4 @@
-package cams.controllers;
+package cams.controllers.camp;
 
 import java.util.Objects;
 import java.util.function.Predicate;

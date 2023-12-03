@@ -1,4 +1,4 @@
-package cams.controllers;
+package cams.controllers.camp;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -11,6 +11,7 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import cams.controllers.Manager;
 import cams.models.CamsData;
 import cams.models.camp.Camp;
 
