@@ -83,6 +83,7 @@ public class Alert extends ActionableItem implements Displayable {
      * pop-up. Dismissing the pop-up using the ENTER eky will return the user to the
      * previous <code>Displayable</code> user interface element.
      */
+    @Override
     public void display() {
         CommonElements.clearSystemOut();
         System.out.println(getContent());

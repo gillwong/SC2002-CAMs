@@ -6,7 +6,8 @@ import java.util.Scanner;
 /**
  * Base class for user interface elements which requests user input. This base
  * class enables this application to retrieve and store user input which may be
- * further processed by classes containing this base class. This base text box is
+ * further processed by classes containing this base class. This base text box
+ * is
  * used by association in this application.
  * <p>
  * To use this base text box, construct this base class with its label.
@@ -85,7 +86,8 @@ public class TextBox implements Displayable {
      * where user input may want to be hidden is when asking for the user's
      * password.
      *
-     * @param id          id of this text box; mainly used to get this text box's value within a
+     * @param id          id of this text box; mainly used to get this text box's
+     *                    value within a
      *                    {@code Form}
      * @param label       text box label
      * @param inputHidden disables input echoing if true
@@ -137,9 +139,11 @@ public class TextBox implements Displayable {
     }
 
     /**
-     * Displays text box label to the standard output and gets user input in the same
+     * Displays text box label to the standard output and gets user input in the
+     * same
      * line using the provided scanner of the text box.
      */
+    @Override
     public void display() {
         Console console = System.console();
         System.out.print(label + ": ");

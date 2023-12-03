@@ -1,7 +1,6 @@
 package cams.view.base;
 
 import cams.view.CommonElements;
-import cams.view.components.auth.LoginForm;
 
 import java.util.*;
 
@@ -174,6 +173,7 @@ public class Form implements Displayable {
      * user input field afterward. Repeats this until there are no more input fields
      * left to display.
      */
+    @Override
     public void display() {
         CommonElements.clearSystemOut();
         System.out.println(getTitle());
